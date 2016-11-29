@@ -21,4 +21,12 @@ $('#about-button').click(function() {
     $('.about-container').hide();
     $('.contact-container').hide();
   });
+
+  $('#day').click(function() {
+    $('.n-background').fadeIn(1000);
+    $('.why-me-container').hide();
+    $('.about-container').hide();
+    $('.contact-container').hide();
+  });
+
 });
