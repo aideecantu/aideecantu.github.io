@@ -289,7 +289,7 @@ body {
 	position: fixed;
 	left:50%;
 	top: 0;
-	color:white;
+	color:#222;
 	
 }
 
@@ -347,7 +347,7 @@ h4{
 	font-family: "Helvetica Nueue", Helvetica, Arial, Verdana, sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color:white;
+	color:#222;
 	line-height: 25px;
 	text-align: center;
 }
@@ -375,7 +375,7 @@ h1{
 	font-family: "Helvetica Nueue", Helvetica, Arial, Verdana, sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color:white;
+	color:#222;
 	left:30%;
 	top:210px;
 	
