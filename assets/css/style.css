@@ -126,6 +126,7 @@ body {
 }
 #day .menu .item {
 	opacity: .7;
+	padding:15px;
 }
 
 #day .menu .item:hover {
