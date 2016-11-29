@@ -22,11 +22,6 @@ $('#about-button').click(function() {
     $('.contact-container').hide();
   });
 
-  $('#day').click(function() {
-    $('.n-background').fadeIn(1000);
-    $('.why-me-container').hide();
-    $('.about-container').hide();
-    $('.contact-container').hide();
-  });
+  
 
 });
