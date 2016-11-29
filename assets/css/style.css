@@ -326,6 +326,15 @@ h4{
 .about-container{
 	display: none;
 }
+.a-container{
+
+	height: 550px;
+  	width: 450px;
+  	position: absolute;
+  	top: calc((100% - 550px) / 2);
+  	left: calc((100% - 450px) / 2);
+
+}
 /*why-me-container*/
 .me-background{
 	background:#FAB409;
