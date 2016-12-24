@@ -15,7 +15,7 @@ body{
 #top-bar-container{
 	border: dotted;
 	margin-top:40px;
-	display: inline-block;
+	
 
 }
 #projects{
@@ -53,3 +53,21 @@ body{
 	margin-left:785px;
 	display: inline-block;
 }
+
+.column1{
+	position: absolute;
+	margin-top: 90px;
+	display: inline-block;
+}
+
+.column2{
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 420px;
+}
+
+
+
+
+
+
