@@ -25,7 +25,6 @@ body{
 	font-size:20px;
 	font-weight:300;
 	font-family: 'Oswald';
-	display: inline-block;
 }
 
 #why-me{
@@ -35,7 +34,6 @@ body{
 	font-size:20px;
 	font-weight:300;
 	font-family: 'Oswald';
-	display: inline-block;
 }
 #resume{
 	position:absolute;
@@ -44,20 +42,17 @@ body{
 	font-size:20px;
 	font-weight:300;
 	font-family: 'Oswald';
-	display: inline-block;
 }
 
 #linkedin{
 	position:absolute;
 	margin-top:14px;
 	margin-left:785px;
-	display: inline-block;
 }
 
 .column1{
 	position: absolute;
 	margin-top: 90px;
-	display: inline-block;
 }
 
 .column2{
