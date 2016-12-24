@@ -15,6 +15,7 @@ body{
 #top-bar-container{
 	border: dotted;
 	margin-top:40px;
+	display: inline-block;
 
 }
 #projects{
