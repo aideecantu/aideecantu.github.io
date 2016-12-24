@@ -18,6 +18,9 @@ body{
 	
 
 }
+.tb-item{
+	display: inline-block;
+}
 #projects{
 	position:absolute;
 	font-size:20px;
