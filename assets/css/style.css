@@ -20,8 +20,6 @@ body{
 }
 #projects{
 	position:absolute;
-	margin-top:10px;
-	margin-left:555px;
 	font-size:20px;
 	font-weight:300;
 	font-family: 'Oswald';
@@ -29,16 +27,12 @@ body{
 
 #why-me{
 	position:absolute;
-	margin-top:10px;
-	margin-left:555px;
 	font-size:20px;
 	font-weight:300;
 	font-family: 'Oswald';
 }
 #resume{
 	position:absolute;
-	margin-top:10px;
-	margin-left:555px;
 	font-size:20px;
 	font-weight:300;
 	font-family: 'Oswald';
@@ -46,8 +40,7 @@ body{
 
 #linkedin{
 	position:absolute;
-	margin-top:14px;
-	margin-left:785px;
+
 }
 
 .column1{
