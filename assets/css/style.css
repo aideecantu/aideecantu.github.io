@@ -1,66 +1,401 @@
 body{
 	margin:0;
 	padding:0;
-	font-family: 'Oswald', sans-serif;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	opacity: 1;
-	color:#262626;
+	color:#1D2731;
     transition: 1s opacity;
+    position: relative;
+    
 }
+
+#home-button{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+
+
+}
+
+h1{
+	position:absolute;
+	font-size:30px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing:2px;
+}
+
+
 #wrapper{
 	width: 800px;
 	margin: 0 auto;
 }
 
-#top-bar-container{
-	border: dotted;
+#top-bar{
 	position:fixed;
     top:0;
     left:0;
     width:100%;
-    height:60px;
-    background-color:black
+    height:10%;
+    z-index: 0;
+
 	
+}
+#tb-container{
+	width: 50%;
+	height:100%;
+	right:0;
+	position: relative;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#0B3C5D;
+}
+li {
+    float: right;
 
 }
-.tb-item{
-	display: inline-block;
+li a {
+    display: block;
+    color: #e5e5e5;
+    padding: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+
 }
-#projects{
+
+/*#projects{
 	position:absolute;
 	font-size:20px;
 	font-weight:300;
-	font-family: 'Oswald';
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 #why-me{
 	position:absolute;
 	font-size:20px;
 	font-weight:300;
-	font-family: 'Oswald';
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
 }
 #resume{
 	position:absolute;
 	font-size:20px;
 	font-weight:300;
-	font-family: 'Oswald';
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
 }
 
 #linkedin{
 	position:absolute;
-
+	display: inline-block;
 }
-
+*/
+.colum-container{
+	width: 800px;
+	height: 590px;
+	margin: 0;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	-ms-transform: translate(-50%, -100%);
+	transform: translate(-50%, -100%);
+}
 .column1{
 	position: absolute;
-	margin-top: 90px;
+	padding:100px 0;
+	margin: 0px -10px 0px 0px;
+
 }
+#bullet-points{
+	width:390px;
+	text-align: center;
+
+}
+
 
 .column2{
 	position: absolute;
-	margin-top: 90px;
-	margin-left: 420px;
+	right: 0px;
+	width: 400px;
+	padding: 30px 0px;
+	margin: 50px -10px 0px 0px;
+
 }
+#quote{
+	
+	letter-spacing: 3px;
+	text-align: center;
+	width:400px;
+	
+}
+
+#me-stuff{
+	padding-left: 40px;
+	line-height: 1.5;
+	
+
+}
+
+#pp{
+	border:solid;
+	border-color:#1D2731;
+	border-width: 5px;
+}
+#bullet-points{
+	font-size: 15px;
+	text-align: center;
+	line-height: 25px;
+	font-family: 'Raleway', sans-serif;
+	color:#1D2731;
+}
+h1{
+	font-size: 60px;
+	letter-spacing: 3px;
+	font-size: 30px;
+	line-height: 3;
+	font-family: 'Raleway', sans-serif;
+	color:#1D2731;
+}
+#about-me2{
+	font-size: 15px;
+	letter-spacing: 3px;
+	line-height: 2;
+	font-family: 'Raleway', sans-serif;
+	color:#1D2731;
+	padding-top: 5px;
+
+}
+#about-me{
+	{
+	font-size: 15px;
+	letter-spacing: 3px;
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+	color:#1D2731;
+	padding-top: 10px;
+
+}
+}
+
+#button{
+	position:fixed;
+	bottom:35px;
+	right:12%;
+	cursor:hand;
+	padding:10px;
+}
+
+/*project containers*/
+h2 {
+	position: absolute;
+	top:0px;
+	left:6%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	letter-spacing: 3px;
+	color:#1D2731;
+}
+
+.projects{
+	width: 800px;
+	padding-top:580px;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	-ms-transform: translate(-50%, -100%);
+	transform: translate(-50%, -100%);
+	
+}
+
+
+.left{
+	
+	position: absolute;
+	left:0px;
+	top:10%;
+	
+	width:600px;
+	left:4%;
+  	
+}
+.right{
+	
+	position: absolute;
+	top:10%;
+	
+	width:600px;
+	left: 50%;
+}
+ .container {
+  position: relative;
+  width: 50%;
+  /*border:solid;*/
+  padding: 5px;
+  margin:15px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #C5C1C0;
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#office {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1D2731;
+}
+
+#yellow{
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1D2731;
+}
+
+#snaps {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1D2731;
+}
+
+#cal {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1D2731;
+}
+#dmc {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1D2731;
+}
+
+#dmcsand {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1D2731;
+}
+
+/*#child1:hover{
+	opacity:0.5;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+#child2:hover{
+	opacity:0.5;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+#child3:hover{
+	opacity:0.5;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+#child4:hover{
+	opacity:0.5;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+#child5:hover{
+	opacity:0.5;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+#child6:hover{
+	opacity:0.5;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+/*why me*/
+h3{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color:#1D2731;
+
+}
+.columna{
+	position: absolute;
+	padding:140px 0;
+	margin: 0px -10px 0px 0px;
+	right:0px;
+}
+
+#profile-pic{
+	border-bottom:solid;
+}
+
+.columnb{
+	position: absolute;
+	left: 0px;
+	width: 400px;
+	padding: 20px 0;
+	margin: 50px -10px 0px 0px;
+	color:#1D2731;
+
+}
+
 
 
 
